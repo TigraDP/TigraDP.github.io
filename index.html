@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pet shop</title>
+    <link href="#" rel="shortcut icon" />
+    <link href="style/style.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <div class = "header-wrapper">
+            <div class = "logo"><a href="/">
+                <img src="assets/img/logo.png" alt="Logo" />
+            </a></div>
+            
+            <div class= "space"></div>     
+
+            <div class = "cart"></div>
+        </div>
+    </header>
+    <div class = "conteiner">
+        <div class = "menuVertical">
+            <ul>
+                <li class = "dog">Dogs</li>
+                <li class = "cat">Cats</li>
+                <li class = "hamster">Hamsters</li>
+            </ul>
+        </div>
+        <div class = "static-lists">
+            <div class = "all-cats">
+                <h2>All Cats</h2>
+                <ul></ul>
+            </div>
+            <div class = "expensive">
+                <h2>Expensive pets</h2> 
+                <ul></ul>
+            </div>
+            <div class = "white-and-fluffy">
+                <h2>White or fluffy</h2>
+                <ul></ul>
+            </div>
+        </div>
+    </div> 
+    <div class = "PetShop">    
+        
+    </div>
+       <di class="popup_bg"></div>
+    <div class = "cartPopap">
+            <a class="js-popup-close" href="javascript:void(0);">&times;</a>
+            <div class = "ShopCart">
+            </div>
+            
+            <div><button class = "checkout"></button></div>
+            
+        </div>
+    <template class = "pet-cart-tamplate">
+            <div class = "pet-cart">
+                    <p>Type: <span data-pet-animal></span></p>
+                    <p>Name: <span data-pet-name></span></p>
+                    <p>Color: <span data-pet-color></span></p>
+                    <p>Fluffy: <span data-pet-isFluffy></span></p>
+                    <p>Price: <span data-pet-price></span></p>
+                    <div><button class = "byu-bth">Add to cart</button></div>
+                </div>
+    </template>
+
+    <template class = "pet-in-shop-cart-tamplate">
+            <div class = "pet-in-cart">
+                <p><span data-pet-animal></span> <span data-pet-name ></span> <span data-pet-price></span></p>
+                <button class = "byu-bth-cart">Delete</button>
+            </div>
+    </template>
+    
+    <footer><p class = "futter-text">Pet Shop 2019</p>
+
+    </footer>
+    <script type="module" src = controllers/controller.js></script>
+</body>
+</html>

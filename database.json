@@ -1,0 +1,14 @@
+[
+    {"type": "Cat", "name": "Bars", "color": "White", "price": 1500, "isFluffy": "yes" },
+    {"type": "Cat", "name": "Ginger", "color": "Redhad", "price": 500, "isFluffy": "no" },
+    {"type": "Cat", "name": "Murka", "color": "White", "price": 1250, "isFluffy": "no" },
+    {"type": "Cat", "name": "Izida", "color": "Gray", "price": 4000, "isFluffy": "no" },
+    {"type": "Dog", "name": "Polkan", "color": "Black", "price": 2000},
+    {"type": "Dog", "name": "Sharik", "color": "White", "price": 200},
+    {"type": "Dog", "name": "Laima", "color": "Black", "price": 4000},
+    {"type": "Dog", "name": "Bricks", "color": "Redhad", "price": 14000},
+    {"type": "Hamster", "color": "Grey", "price": 200, "isFluffy": "yes" },
+    {"type": "Hamster", "color": "Black", "price": 200, "isFluffy": "no" },
+    {"type": "Hamster", "color": "Brown", "price": 300, "isFluffy": "no" },
+    {"type": "Hamster", "color": "Redhad", "price": 3500, "isFluffy": "no"}
+]

@@ -1,0 +1,206 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Helvetica";
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    background: #f7f7f7;
+    border-bottom: 2px solid #ffc600;
+}
+
+.header-wrapper {
+	display: flex;
+	align-items: right;
+}
+
+.space {
+	flex-grow: 1;
+}
+
+.logo, .cart, .sign-out {
+    margin: 10px;
+}
+
+.menuVertical{
+    cursor: pointer;
+    width:300px;
+    height:auto;
+    margin: 20px;
+    margin-left: 40px;
+    margin-right: 0px;
+}
+
+.menuVertical ul li{
+    position:relative;
+    display:block;
+    width:100%;
+    height:auto;
+    box-sizing:border-box;
+    font-size:16px;
+    text-transform:uppercase;
+    font-weight:bold;
+    color:#FBF7F7;
+    line-height:1.2em;
+    padding:10px 15px;
+    background:#174e6e;
+    border-top:1px solid #236A92;
+       
+}
+
+.menuVertical ul :hover{
+    color:rgb(206, 248, 17);
+}
+
+.conteiner {    
+	display: flex;
+    justify-content: space-around;
+    border-bottom:1px solid rgb(206, 248, 17);
+}
+
+.PetShop {    
+	display: flex;
+    justify-content: space-around;    
+}
+
+.static-lists{
+    width: 100%;
+	display: flex;
+    justify-content: space-around;
+    font-size: 1.2rem;
+       
+}
+
+.all-cats, .expensive, .white-and-fluffy{    
+    padding: 20px;
+    box-sizing:border-box;
+    border-left:1px solid rgb(206, 248, 17);;
+}  
+
+.all-cats ul li, .expensive ul li, .white-and-fluffy ul li {    
+    list-style-type:none;
+} 
+
+.pet-cart {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: space-around;
+    width: 400px;
+    height: 400px;
+    margin: 60px;
+    font-size: 2rem;
+    text-align: center;
+    border: 1px solid  rgb(206, 248, 17);
+    border-radius: 4%;
+}     
+
+footer{
+    border-top:1px solid rgb(206, 248, 17);
+    height: 50px; 
+    background: #f7f7f7; 
+    position: absolute; 
+    bottom: 0; 
+    width: 100%; 
+    text-align: center;     
+}
+
+.futter-text{
+    margin-top: 20px;
+}
+
+.byu-bth {
+    width: 200px;
+    height: 40px;
+    background:  #174e6e;
+    color: white;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+.logo{
+    margin-left: 40px;    
+    margin-bottom: 20px;
+    height: 40px;
+    width: 400px;
+}
+
+.cart{
+    margin-right: 40px;
+    padding-top:10 px;
+    height: 30px;
+    width: 40px;
+    background: url('../assets/img/cart.png')no-repeat;
+    text-align: right; 
+    color: #174e6e;
+    cursor: pointer;    
+}
+
+.cartPopap{
+    text-align: center;
+	position: fixed;
+	left: 0;
+	right: 0;	
+	margin: auto;
+	width: 445px;
+    height: auto;
+    background: #FFF;
+    border: 1px solid rgb(206, 248, 17);
+    border-radius: 4%;
+	display: none;
+	z-index: 1002;
+	top: 100px;
+	padding: 60px 0 40px;
+	
+}
+
+.popup_bg {
+	background: rgba(0,0,0,0.5);
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 1001;
+	display: none;
+	cursor: pointer;
+}
+
+.js-popup-close{
+	width: 50px;
+	height: 50px;
+	float: right;
+	position: absolute;
+	right: 0;
+	top: 0;
+	color: #666666;
+	text-align: center;
+	line-height: 50px;
+	font-size: 2.2rem;
+}
+
+.byu-bth-cart{
+    width: 200px;
+    height: 20px;
+    background:  #174e6e;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;    
+}
+
+.checkout{
+    width: 300px;
+    height: 40px;
+    background:  #174e6e;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;    
+}
+
+.pet-in-cart{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
